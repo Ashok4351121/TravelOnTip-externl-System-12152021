@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.mule.tooling.MULE_PROJECT_LIB"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-db-connector/1.10.6"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-sockets-connector/1.2.2"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-http-connector/1.6.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/repository/org/mule/connectors/mule-http-connector/1.5.25/mule-http-connector-1.5.25-mule-plugin.jar"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/repository/org/mule/connectors/mule-sockets-connector/1.2.1/mule-sockets-connector-1.2.1-mule-plugin.jar"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/repository/org/mule/modules/mule-module-cors-kernel/1.1.2/mule-module-cors-kernel-1.1.2.jar"/>
+	<classpathentry kind="lib" path="Mule-local-Repo/Mule-test-cicd-demo/target/test-1.0.0-SNAPSHOT-mule-application.jar"/>
+	<classpathentry exported="true" kind="con" path="MULE_RUNTIME/org.mule.tooling.server.4.4.0.ee"/>
+	<classpathentry kind="src" path="src/main/mule"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/test/munit"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
